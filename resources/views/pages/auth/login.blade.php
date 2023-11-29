@@ -11,7 +11,7 @@
     <meta name="description"
         content="Matrix Admin Lite Free Version is powerful and clean admin dashboard template, inpired from Bootstrap Framework" />
     <meta name="robots" content="noindex,nofollow" />
-    <title>ระบบขายสินค้าหน้าร้าน & สต็อกสินค้า</title>
+    <title>Point of Sale System</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png" />
     <!-- Custom CSS -->
@@ -53,8 +53,8 @@
         height: 100vh;">
             <div class="auth-box bg-dark border-top border-secondary">
                 <div id="loginform">
-                    <div class="text-center pt-3 pb-3">
-                        <span class="db text-warning">ระบบขายสินค้าหน้าร้าน & สต็อกสินค้า</span>
+                    <div class="text-center pt-3 pb-3" >
+                        <span class="db text-warning">Point of Sale System</span>
                     </div>
                     <!-- Form -->
                     @if ($errors->any())
