@@ -124,8 +124,8 @@
                                                         <i class="fa-solid fa-toggle-on"></i>
                                                     </button>
                                                 </form>
-                                                <a class="btn btn-info" onclick="printBarcode({{ $product->id }})"><i
-                                                        class="fa-solid fa-barcode"></i></a>
+                                                <!-- <a class="btn btn-info" onclick="printBarcode({{ $product->id }})"><i
+                                                        class="fa-solid fa-barcode"></i></a> -->
                                                 <button class="btn btn-warning" type="button"
                                                     v-on:click="EditProduct({{ $product->id }})"><i
                                                         class="mdi mdi-pencil"></i></button>
@@ -213,7 +213,7 @@
 
                             <div class="form-group row">
                                 <label for="lname" class="col-sm-3 text-end control-label col-form-label">
-                                    แบรนด์ / ยี่ห้อ</label>
+                                    ประเภทสินค้า</label>
                                 <div class="col-sm-9">
                                     <select v-model="form.sub_category" class="form-select" name="sub_category"
                                         id="sub_category">
