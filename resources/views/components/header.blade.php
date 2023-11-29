@@ -21,7 +21,7 @@
                 <!-- ============================================================== -->
                 <!-- Logo -->
                 <!-- ============================================================== -->
-                <a class="navbar-brand" href="{{ route('home') }}">
+                <a class="navbar-brand" href="#">
                     <!-- Logo icon -->
                     <b class="logo-icon ps-2">
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
@@ -32,7 +32,7 @@
                     <!-- Logo text -->
                     <span class="logo-text ms-2 text-warning">
                         <!-- dark Logo text -->
-ระบบขายสินค้าหน้าร้าน
+ระบบขายวัสดุก่อสร้าง
                     </span>
                     <!-- Logo icon -->
                     <!-- <b class="logo-icon"> -->

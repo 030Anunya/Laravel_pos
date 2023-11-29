@@ -26,7 +26,7 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             if (auth()->user()->status == 1) {
                 $request->session()->regenerate();
-                return redirect()->intended(route('home'))->with('message', 'เข้าสู่ระบบสำเร็จ');
+                return redirect()->intended(route('listsale.index'))->with('message', 'เข้าสู่ระบบสำเร็จ');
             } else {
                 Auth::logout();
                 return back()->withErrors([

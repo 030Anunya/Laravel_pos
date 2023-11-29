@@ -48,7 +48,7 @@
                           </ul>
                       </li>
                       @if (Auth::user()->is_admin)
-                          <li class="sidebar-item">
+                          <!-- <li class="sidebar-item">
                               <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
                                   aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">พนักงาน
                                   </span></a>
@@ -62,9 +62,9 @@
                                       <a href="{{ route('department.index') }}" class="sidebar-link"><i
                                               class="mdi mdi-emoticon-cool"></i><span class="hide-menu"> ตำแหน่ง
                                           </span></a>
-                                  </li>
-                              </ul>
-                          </li>
+                                  </li> -->
+                              <!-- </ul>
+                          </li> -->
                           <li class="sidebar-item">
                               <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
                                   aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span

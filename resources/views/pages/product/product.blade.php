@@ -59,7 +59,7 @@
                                             $date1 = date('Y-m-d');
                                             $date2 = $product->Expiry_Date;
                                         
-                                            $dateTime1 = new DateTime($date1);
+                                            $dateTime1 = new DateTime($date1); 
                                             $dateTime2 = new DateTime($date2);
                                         
                                             $interval = $dateTime1->diff($dateTime2);

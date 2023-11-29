@@ -8,7 +8,7 @@
     content="Matrix Admin Lite Free Version is powerful and clean admin dashboard template, inpired from Bootstrap Framework" />
 <meta name="robots" content="noindex,nofollow" />
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<title>ระบบขายสินค้าหน้าร้าน & สต็อกสินค้า</title>
+<title>ระบบขายวัสดุก่อสร้าง & สต็อกสินค้า</title>
 <!-- Favicon icon -->
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png" />
 <!-- Custom CSS -->

@@ -21,6 +21,7 @@
     @if (Auth::user()->is_admin)
         <div class="row">
             <!-- Column -->
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <div class="col-md-6 col-lg-2 col-xlg-3">
                 <div class="card card-hover">
                     <div class="box bg-cyan text-center">
@@ -34,7 +35,7 @@
                 </div>
             </div>
             <!-- Column -->
-            <div class="col-md-6 col-lg-2 col-xlg-3">
+            <!-- <div class="col-md-6 col-lg-2 col-xlg-3">
                 <div class="card card-hover">
                     <div class="box bg-success text-center">
                         <h1 class="font-light text-white">
@@ -44,7 +45,7 @@
                         <span class="text-white">{{ number_format($coustomer_count) }} คน</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Column -->
             <div class="col-md-6 col-lg-2 col-xlg-3">
                 <div class="card card-hover">

@@ -272,13 +272,13 @@
                         <hr>
                             <p v-if="successSearchInput != ''"
                                 :class=" successSearchInput === 'เพิ่มสินค้าสำเร็จ' ? 'alert alert-success col-12' : 'alert alert-danger'">* @{{ successSearchInput }}</p>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center row">
 
-                            <div class="btn-group " v-for="(productFeature,index) in productFeatures"
+                            <div class="btn-group  col-3 mb-3" v-for="(productFeature,index) in productFeatures"
                                 :key="index">
                                 <button v-on:click="addCartFeature(productFeature)"
                                     class="btn btn-outline-primary mx-2">@{{ productFeature.feature1 }}/@{{ productFeature.feature2 }}
-                                    ฿@{{ productFeature.product_price }} บาท</button>
+                                    ฿@{{ productFeature.product_price }}</button>
                             </div>
                         </div>
 
