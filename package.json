@@ -8,7 +8,7 @@
     "ionic:serve": "npm run dev"
   },
   "devDependencies": {
-    "axios": "^1.5.0",
+    "axios": "^1.6.0",
     "laravel-vite-plugin": "^0.8.0",
     "vite": "^4.0.0"
   },
